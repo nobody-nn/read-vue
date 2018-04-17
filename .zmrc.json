@@ -1,0 +1,7 @@
+{
+  "type": "web",
+  "ui": false,
+  "subtype": "mobile",
+  "webpack1": true,
+  "version": "0.0.207"
+}

@@ -1,0 +1,6 @@
+/**
+ * 在这里引入所有 abstract 的代码, 这些代码可以被多次引用, 不会影响实际代码的生成
+ */
+@import './const/index.css';
+@import './extend/index.css';
+@import './mixin/index.css';

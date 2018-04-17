@@ -1,0 +1,12 @@
+@import 'src/style/base.css';
+
+.app-home {
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  border: 1px solid silver;
+
+  .foo-action {
+    font-size: 40px;
+  }
+}

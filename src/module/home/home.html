@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>home</title>
+  <script>!function (e) { function t(n) { if (i[n]) return i[n].exports; var a = i[n] = { exports: {}, id: n, loaded: !1 }; return e[n].call(a.exports, a, a.exports, t), a.loaded = !0, a.exports } var i = {}; return t.m = e, t.c = i, t.p = "", t(0) }([function (e, t) { "use strict"; Object.defineProperty(t, "__esModule", { value: !0 }); var i = window; t["default"] = i.vw = function (e, t) { var n = e || 100, a = t || 750, r = i.document, o = navigator.appVersion.match(/(iphone|ipad|ipod)/gi), d = i.devicePixelRatio || 1, c = r.documentElement, l = 1, u = 1 / d; o || (u = 1); var s = r.querySelector('meta[name="viewport"]'); s || (s = r.createElement("meta"), s.setAttribute("name", "viewport"), r.head.appendChild(s)), s.setAttribute("content", "width=device-width,user-scalable=no,initial-scale=" + u + ",maximum-scale=" + u + ",minimum-scale=" + u); var p = function () { c.style.fontSize = n / a * c.clientWidth * l + "px" }; p(), i.addEventListener("resize", p) }, e.exports = t["default"] }]);
+    vw(100, 750);</script>
+  <link rel='stylesheet' href='home.css'>
+</head>
+
+<body>
+  <div id="app" class="app-home">
+    <button class='foo-action' type='button' @click='clickBtn'>click me</button>
+  </div>
+  <script src='common.js'></script>
+  <script src='home.js'></script>
+</body>
+
+</html>
