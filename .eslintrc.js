@@ -18,6 +18,10 @@ module.exports = {
     //     functions: 'always-multiline',
     //   },
     // ],
-    placeholder: ['off']
-  }
-};
+    'guard-for-in': 'off',
+    'no-restricted-syntax': 'off',
+    'no-multi-assign': 'off',
+    'prefer-rest-params': 'off',
+    placeholder: ['off'],
+  },
+}
